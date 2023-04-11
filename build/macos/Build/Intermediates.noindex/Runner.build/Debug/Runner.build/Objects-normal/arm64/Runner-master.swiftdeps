@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "a58f8a2704f8230fa800888814f105c3086290b114c95ef38a209889ca405db8"
+build_start_time: [1681165778, 727898000]
+build_end_time: [1681165784, 973309000]
+inputs:
+  "/Users/nathanael/Documents/toonflix/macos/Flutter/GeneratedPluginRegistrant.swift": [1681165769, 184962723]
+  "/Users/nathanael/Documents/toonflix/macos/Runner/AppDelegate.swift": [1678307504, 0]
+  "/Users/nathanael/Documents/toonflix/macos/Runner/MainFlutterWindow.swift": [1678307504, 0]
