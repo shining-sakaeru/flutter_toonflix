@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "60ec29d990906c57d4bfece65705cad81ef03660f3a7b37a0849d38e91a268be"
-build_start_time: [1679813064, 737506866]
-build_end_time: [1679813064, 834868907]
-inputs:
-  "/Users/nathanael/Documents/toonflix/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1679813049, 623928546]
-  "/Users/nathanael/Documents/toonflix/macos/Runner/AppDelegate.swift": !private [1678307504, 0]
-  "/Users/nathanael/Documents/toonflix/macos/Runner/MainFlutterWindow.swift": !private [1678307504, 0]
