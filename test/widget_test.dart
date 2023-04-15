@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:toonflix/main.dart';
+=======
+import 'package:flutter_toonflix/main.dart';
+>>>>>>> master
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
