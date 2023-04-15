@@ -1,13 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-    package="com.example.toonflix">
+    package="com.example.flutter_flutter_toonflix">
    <application
-        android:label="toonflix"
-=======
-    package="com.example.flutter_toonflix">
-   <application
-        android:label="flutter_toonflix"
->>>>>>> master
+        android:label="flutter_flutter_toonflix"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

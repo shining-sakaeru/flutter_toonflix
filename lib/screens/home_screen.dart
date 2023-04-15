@@ -1,43 +1,28 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-=======
-import 'package:flutter_toonflix/models/webtoon_model.dart';
-import 'package:flutter_toonflix/services/api_service.dart';
-import 'package:flutter_toonflix/widgets/webtoon_widget.dart';
+import 'package:flutter_flutter_toonflix/models/webtoon_model.dart';
+import 'package:flutter_flutter_toonflix/services/api_service.dart';
+import 'package:flutter_flutter_toonflix/widgets/webtoon_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
 
   final Future<List<WebtoonModel>> webtoons = ApiService.getTodaysToons();
->>>>>>> master
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-<<<<<<< HEAD
-        foregroundColor: Colors.green,
-        backgroundColor: Colors.white,
-        title: const Text(
-          "Today's Webtoon",
-=======
         elevation: 2,
         backgroundColor: Colors.white,
         foregroundColor: Colors.green,
         title: const Text(
           "어늘의 웹툰",
->>>>>>> master
           style: TextStyle(
             fontSize: 24,
           ),
         ),
       ),
-<<<<<<< HEAD
-=======
       body: FutureBuilder(
         future: webtoons,
         builder: (context, snapshot) {
@@ -73,7 +58,6 @@ class HomeScreen extends StatelessWidget {
         );
       },
       separatorBuilder: (context, index) => const SizedBox(width: 40),
->>>>>>> master
     );
   }
 }

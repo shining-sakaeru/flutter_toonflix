@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-    "name": "toonflix",
-    "short_name": "toonflix",
-=======
-    "name": "flutter_toonflix",
-    "short_name": "flutter_toonflix",
->>>>>>> master
+    "name": "flutter_flutter_toonflix",
+    "short_name": "flutter_flutter_toonflix",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

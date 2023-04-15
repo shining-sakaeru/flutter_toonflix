@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-import 'package:toonflix/screens/home_screen.dart';
-=======
-import 'package:flutter_toonflix/screens/home_screen.dart';
->>>>>>> master
+import 'package:flutter_flutter_toonflix/screens/home_screen.dart';
 
 void main() {
   runApp(const App());
@@ -14,11 +10,7 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
-    return const MaterialApp(
-=======
     return MaterialApp(
->>>>>>> master
       home: HomeScreen(),
     );
   }
